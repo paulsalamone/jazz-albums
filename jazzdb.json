@@ -1,0 +1,52 @@
+{
+  "albums": [
+    {
+      "id": 1,
+      "artist": "Ragamuffin Jones",
+      "title": "Sauce Ballads",
+      "color1": "pink",
+      "color2": "yellow",
+      "favorite": "false"
+    },
+    {
+      "id": 2,
+      "artist": "Murdoch Frenz",
+      "title": "Wall Street Lepers",
+      "color1": "black",
+      "color2": "red",
+      "favorite": "true"
+    },
+    {
+      "id": 3,
+      "artist": "Larry Stumm Trio",
+      "title": "Lean Back!",
+      "color1": "purple",
+      "color2": "lightgreen",
+      "favorite": "false"
+    },
+    {
+      "id": 4,
+      "artist": "Bernd Heilig",
+      "title": "Black Forest Flotsam",
+      "color1": "brown",
+      "color2": "darkgreen",
+      "favorite": "false"
+    },
+    {
+      "id": 5,
+      "artist": "Sonny Bracksam",
+      "title": "Amsterdam Puddle",
+      "color1": "blue",
+      "color2": "darkblue",
+      "favorite": "true"
+    },
+    {
+      "id": 6,
+      "artist": "Lonny R. Change",
+      "title": "Beijing Lady",
+      "color1": "yellow",
+      "color2": "red",
+      "favorite": "false"
+    }
+  ]
+}
