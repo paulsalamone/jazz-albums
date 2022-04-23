@@ -38,6 +38,6 @@ export default {
   /* grid-row: 1 / span 2; */
   /* grid-column: 1 / span 2; */
 
-  grid-gap: 20px;
+  grid-gap: 30px;
 }
 </style>

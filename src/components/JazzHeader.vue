@@ -1,6 +1,7 @@
 <template>
   <div>
     <h1>Jazz <span>LPs</span></h1>
+    <p>Welcome, [username]</p>
   </div>
 </template>
 
