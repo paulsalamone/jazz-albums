@@ -30,7 +30,7 @@ h1 {
   text-align: left;
   font-family: "Abril Fatface", "Gill Sans", "Gill Sans MT", Calibri,
     "Trebuchet MS", sans-serif;
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 100;
 }
 

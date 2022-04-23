@@ -95,8 +95,9 @@ h2 {
   font-size: 6rem;
   letter-spacing: 3px;
   font-weight: 100;
-  margin: 0px 10px 0px 10px;
+  margin: 0px 0px 0px 5px;
   text-align: left;
   color: rgb(119, 179, 219);
+  text-shadow: 5px 5px 0px rgba(17, 17, 34, 0.191);
 }
 </style>

@@ -1,6 +1,6 @@
 import Vue from "vue";
 import Vuex from "vuex";
-
+import AlbumService from "@/services/AlbumService.js";
 Vue.use(Vuex);
 
 export default new Vuex.Store({
@@ -16,41 +16,28 @@ export default new Vuex.Store({
       "soft funk",
       "toilet soul",
     ],
-    albums: [
-      {
-        id: 66,
-        artist: "nix",
-        title: "auch nix",
-        color1: "black",
-        color2: "red",
-        text1: "#00ff00",
-        text2: "#00ff00",
-        flex: "row",
-        favorite: "false",
-        featured: "true",
-        img: "001",
-      },
-      {
-        id: 66,
-        artist: "xxxx",
-        title: "???",
-        color1: "purple",
-        color2: "red",
-        text1: "#ff0033",
-        text2: "#ff0033",
-        flex: "row",
-        favorite: "false",
-        featured: "true",
-        img: "008",
-      },
-    ],
+    albums: [],
   },
   getters: {
     albumsLength: (state) => {
       return state.albums.length;
     },
+    getAlbumById: (state) => (id) => {
+      return state.albums.find((album) => album.id === id);
+    },
   },
-  mutations: {},
-  actions: {},
+  mutations: {
+    ADD_ALBUM(state, album) {
+      state.albums.push(album);
+    },
+  },
+  actions: {
+    createAlbum({ commit }, album) {
+      return AlbumService.postAlbum(album).then(() => {
+        commit("ADD_ALBUM", album);
+        console.log("album committed");
+      });
+    },
+  },
   modules: {},
 });

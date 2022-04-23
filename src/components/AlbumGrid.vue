@@ -7,9 +7,9 @@
           <span>{{ albumsLength }}</span>
           albums in your collection!
           <br />
-          Selected: {{ selected }}
+          <!-- Selected: {{ selected }} -->
         </p>
-        <p>FAVORITES: {{ favorites }}</p>
+        <!-- <p>FAVORITES: {{ favorites }}</p> -->
         <form>
           <label for="faves">Show: </label>
           <select name="favorites" id="" v-model="selected">
@@ -20,19 +20,13 @@
       </div>
     </div>
     <div class="album-grid" v-if="selected === 'all'">
-      <AlbumCard
-        v-for="album in albums"
-        :key="album.id"
-        :album="album"
-        :favoritedAlbums="favoritedAlbums"
-      />
+      <AlbumCard v-for="album in albums" :key="album.id" :album="album" />
     </div>
     <div class="album-grid" v-else>
       <AlbumCard
         v-for="album in albumsFavorited"
         :key="album.id"
         :album="album"
-        :favoritedAlbums="favoritedAlbums"
       />
     </div>
   </div>
@@ -104,5 +98,10 @@ export default {
 
 .current-albums {
   font-size: 1.2rem;
+}
+
+select {
+  padding: 5px;
+  font-size: 1.5rem;
 }
 </style>

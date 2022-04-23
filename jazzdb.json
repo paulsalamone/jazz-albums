@@ -77,6 +77,42 @@
       "favorite": "false",
       "featured": "false",
       "img": "006"
+    },
+    {
+      "id": 3474,
+      "artist": "sadsda",
+      "title": "asdsads",
+      "text1": "sdasadsda",
+      "color1": "sadasad",
+      "img": "dsadsaads",
+      "favorite": "false"
+    },
+    {
+      "id": 83796,
+      "artist": "Serious Tim",
+      "title": "Seriously",
+      "text1": "red",
+      "color1": "black",
+      "img": "003",
+      "favorite": "false"
+    },
+    {
+      "id": 36247,
+      "artist": "The Frank Johnson Quartet",
+      "title": "Jam!",
+      "text1": "black",
+      "color1": "#33ee33",
+      "img": "008",
+      "favorite": "false"
+    },
+    {
+      "id": 90183,
+      "artist": "Wen D.",
+      "title": "This Time Tomorrow",
+      "text1": "#ccbc03",
+      "color1": "#334",
+      "img": "007",
+      "favorite": "false"
     }
   ]
 }

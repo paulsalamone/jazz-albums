@@ -2,7 +2,7 @@
   <div class="card-container">
     <div class="card" :style="{ backgroundColor: album.color1 }">
       <h4 :style="{ color: album.text1 }">{{ album.artist }}</h4>
-      <h3 :style="{ color: album.text2 }">
+      <h3 :style="{ color: album.text1 }">
         {{ album.title }}
       </h3>
     </div>
@@ -21,7 +21,7 @@
           :style="{ color: 'red' }"
         />
         <font-awesome-icon v-else icon="heart" :style="{ color: '#bbb' }" />
-        <p>Favorited? >> {{ album.favorite }}</p>
+        <!-- <p>Favorited? >> {{ album.favorite }}</p> -->
       </div>
     </div>
   </div>

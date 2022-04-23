@@ -13,4 +13,10 @@ export default {
   getAlbums() {
     return apiClient.get("/albums");
   },
+  getAlbum(id) {
+    return apiClient.get("/albums/" + id);
+  },
+  postAlbum(album) {
+    return apiClient.post("/albums", album);
+  },
 };
