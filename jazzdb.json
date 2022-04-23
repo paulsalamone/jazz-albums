@@ -3,50 +3,80 @@
     {
       "id": 1,
       "artist": "Ragamuffin Jones",
-      "title": "Sauce Ballads",
+      "title": "Saucey Ballads",
       "color1": "pink",
-      "color2": "yellow",
-      "favorite": "false"
+      "color2": "#dda188",
+      "text1": "#cc2299",
+      "text2": "#cc2299",
+      "flex": "row",
+      "favorite": "false",
+      "featured": "true",
+      "img": "001"
     },
     {
       "id": 2,
       "artist": "Murdoch Frenz",
-      "title": "Wall Street Lepers",
-      "color1": "black",
+      "title": "Street Sadness",
+      "color1": "blue",
       "color2": "red",
-      "favorite": "true"
+      "text1": "white",
+      "text2": "white",
+      "flex": "column",
+      "favorite": "true",
+      "featured": "false",
+      "img": "004"
     },
     {
       "id": 3,
       "artist": "Larry Stumm Trio",
       "title": "Lean Back!",
       "color1": "purple",
-      "color2": "lightgreen",
-      "favorite": "false"
+      "color2": "#aa55a8",
+      "text1": "yellow",
+      "text2": "yellow",
+      "flex": "row",
+      "favorite": "false",
+      "featured": "false",
+      "img": "003"
     },
     {
       "id": 4,
-      "artist": "Bernd Heilig",
+      "artist": "Dr. Bernd Heilig",
       "title": "Black Forest Flotsam",
-      "color1": "brown",
+      "color1": "black",
       "color2": "darkgreen",
-      "favorite": "false"
+      "text1": "#1144dd",
+      "text2": "#1144dd",
+      "flex": "column",
+      "favorite": "false",
+      "featured": "false",
+      "img": "002"
     },
     {
       "id": 5,
-      "artist": "Sonny Bracksam",
-      "title": "Amsterdam Puddle",
-      "color1": "blue",
+      "artist": "Joyce Wail",
+      "title": "Wailin'",
+      "color1": "red",
       "color2": "darkblue",
-      "favorite": "true"
+      "text1": "white",
+      "text2": "white",
+      "flex": "row",
+      "favorite": "true",
+      "featured": "false",
+      "img": "005"
     },
     {
       "id": 6,
-      "artist": "Lonny R. Change",
+      "artist": "Lonny R. Chang",
       "title": "Beijing Lady",
-      "color1": "yellow",
+      "color1": "#dd0",
       "color2": "red",
-      "favorite": "false"
+      "text1": "red",
+      "text2": "red",
+      "flex": "row",
+      "favorite": "false",
+      "featured": "false",
+      "img": "006"
     }
   ]
 }

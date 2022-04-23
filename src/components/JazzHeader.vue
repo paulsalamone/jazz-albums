@@ -24,6 +24,7 @@ h1 {
   font-family: "Abril Fatface", "Gill Sans", "Gill Sans MT", Calibri,
     "Trebuchet MS", sans-serif;
   font-size: 4rem;
+  font-weight: 100;
 }
 
 span {

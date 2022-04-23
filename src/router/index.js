@@ -1,6 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import ListView from "../views/ListView.vue";
+import AlbumsView from "../views/AlbumsView.vue";
 import AddView from "../views/AddView.vue";
 
 Vue.use(VueRouter);
@@ -9,7 +9,7 @@ const routes = [
   {
     path: "/",
     name: "home",
-    component: ListView,
+    component: AlbumsView,
   },
   {
     path: "/add",

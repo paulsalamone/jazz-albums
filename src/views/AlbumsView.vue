@@ -9,12 +9,19 @@
       <p class="current-albums">
         There are currently <span>[#]</span> albums in your collection!
       </p>
+      <AlbumGrid />
     </section>
   </div>
 </template>
 
 <script>
-export default {};
+import AlbumGrid from "../components/AlbumGrid.vue";
+
+export default {
+  components: {
+    AlbumGrid,
+  },
+};
 </script>
 
 <style scoped>
@@ -36,6 +43,7 @@ export default {};
 .current-albums span {
   font-family: "Abril Fatface";
   font-size: 1.6rem;
+  font-weight: 100;
 }
 
 .album-grid-section {
