@@ -1,12 +1,18 @@
 <template>
   <div>
     <h1>Jazz <span>LPs</span></h1>
-    <p>Welcome, [username]</p>
+    <p>Welcome, {{ userName }}</p>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  computed: {
+    userName() {
+      return this.$store.state.user.name;
+    },
+  },
+};
 </script>
 
 <style scoped>

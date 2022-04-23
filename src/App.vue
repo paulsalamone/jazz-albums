@@ -5,7 +5,18 @@
         <JazzHeader />
         <TopNav />
       </div>
-      <main><router-view /></main>
+      <main>
+        <div class="parent-div">
+          <div>
+            <h2>hot!</h2>
+            <h2>modern!</h2>
+            <h2>jazz!</h2>
+          </div>
+          <section class="blue-overlap">
+            <router-view />
+          </section>
+        </div>
+      </main>
     </div>
     <!-- <footer>footer</footer> -->
   </div>
@@ -64,5 +75,28 @@ main {
   height: 100%;
   /* padding: 20px; */
   width: 95%;
+}
+.parent-div {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  width: 100%;
+  height: 100%;
+}
+.blue-overlap {
+  /* border: 4px solid black; */
+  background-color: rgb(138, 153, 164);
+  mix-blend-mode: hard-light;
+  transform: translate(30px, 30px);
+}
+h2 {
+  font-family: "Six Caps", Impact, Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
+  transform: rotate(-25deg);
+  font-size: 6rem;
+  letter-spacing: 3px;
+  font-weight: 100;
+  margin: 0px 10px 0px 10px;
+  text-align: left;
+  color: rgb(119, 179, 219);
 }
 </style>

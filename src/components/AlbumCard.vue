@@ -21,6 +21,7 @@
           :style="{ color: 'red' }"
         />
         <font-awesome-icon v-else icon="heart" :style="{ color: '#bbb' }" />
+        <p>Favorited? >> {{ album.favorite }}</p>
       </div>
     </div>
   </div>
